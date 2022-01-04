@@ -1,0 +1,61 @@
+@media (min-width: 500px) {
+  .billing-container p span span{
+    display: inline-block;
+  }
+}
+
+@media (min-width: 700px) {
+  body{
+    min-height: 100vh;
+  }
+    header::before{
+    top: -90%
+  }
+  header h2{
+    font-size: 1.8rem;
+  }
+  header p{
+    font-size: 0.9rem;
+  }
+
+  .container, 
+  .container-2{
+    padding: 50px 50px;
+    width: 590px;
+  }
+  .for-desktop{
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .for-mobile{
+    display: none;
+  }
+
+  .pageviews-pricing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .billing-container{
+    margin-top: 60px;
+    justify-content: flex-end;
+  }
+  .toggle-btn{
+    margin: 0 15px;
+  }
+  .container-2{
+    padding: 40px 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+  }
+  .features{
+    text-align: start;
+    margin: 0;
+  }
+  .features p{
+    font-size: 0.9rem;
+  }
+}

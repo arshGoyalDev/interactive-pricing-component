@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  
+  <!-- css -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/queries.css" />
+
+  <!-- js -->
+  <script defer src="js/script.js"></script>
+
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+
+  <header>
+    <h2>Simple, traffic-based pricing</h2>
+    <p>
+      Sign-up for our 30-day trial. No credit card required. 
+    </p>
+  </header>
+
+  <main>
+
+    <!------------------------ container 1 ----------------------->
+    <div class="container">
+
+      <!-------------- page views and (pricing section for desktop)-->
+      <div class="pageviews-pricing-container">
+        <p class="pageviews-container"><span class="pageviews">100k</span> pageviews</p>
+        <div class="pricing for-desktop">
+          <p><h1 class="price">$16.00</h1> /month</p>
+        </div>
+      </div>
+
+      <!------------  slider container ----------------->
+      <div class="slider-container">
+        <input 
+          class="slider" 
+          type="range" 
+          min="20" 
+          max="100" 
+          step="20" 
+          value="60" />
+
+        <div class="bar">
+          <span class="slider-bar"></span>
+        </div>
+      </div>
+
+      <!-------------------- pricing section for mobile  ------------------>
+      <div class="pricing for-mobile">
+        <p><h1 class="price">$16.00</h1> /month</p>
+      </div>
+
+      <!------------------ billing section ------------------->
+      <div class="billing-container">
+        <p>Monthly Billing</p>
+
+        <label class="toggle-btn">
+          <input type="checkbox" class="toggle" name="checkbox"/>
+          <span class="toggle-slider"></span>
+        </label>
+
+        <p class="yearly-billing">Yearly Billing <span>-25% <span>discount</span></p>
+      </div>
+    </div>
+
+    <!---------------- container 2 ------------------>
+    <div class="container-2">
+      <div class="features">
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+          Unlimited websites
+        </p>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+          100% data ownership
+        </p>
+        <p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="9" height="8"><path fill="none" stroke="#10D8C4" stroke-width="2" d="M1 4.134l1.907 1.908L7.949 1"/></svg>
+          Email reports
+        </p>
+      </div>
+
+      <button class="cta-btn">Start my trial</button>
+    </div>
+  </main>
+ <!-- 
+
+  Pageviews
+  $ /month
+
+  Monthly Billing
+  Yearly Billing 25% discount
+
+  Unlimited websites
+  100% data ownership
+  Email reports
+
+  Start my trial
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+</body>
+</html>
