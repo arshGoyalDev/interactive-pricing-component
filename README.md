@@ -12,11 +12,6 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use the slider and toggle to see prices for different page view numbers
 
-## Links
-
-- [Solution URL](https://www.frontendmentor.io/solutions/interactive-pricing-component-VfRG1hcPY)
-- [Live Site URL](https://interactive-pricing-component-developingweb.vercel.app)
-
 ## Built with
 
 - Semantic HTML5 markup
